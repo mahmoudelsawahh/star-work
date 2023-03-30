@@ -1,0 +1,23 @@
+header {
+  grid-area: header;
+}
+
+.mobiLe-app-bar .active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobiLe-app-bar {
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.flexBox {
+  display: flex;
+  align-items: center;
+}
+
+.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+  width: 200px;
+}

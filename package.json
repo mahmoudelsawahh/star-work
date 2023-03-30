@@ -1,0 +1,64 @@
+{
+  "homepage": "./",
+  "name": "raysin-car",
+  "version": "0.1.0",
+  "private": true,
+  "reactSnap": {
+    "inlineCss": true,
+    "removeBlobs": true,
+    "removeScriptTags": true,
+    "removeStyleTags": true
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "@react-google-maps/api": "^2.18.1",
+    "@reduxjs/toolkit": "^1.9.3",
+    "material-ui-popup-state": "^5.0.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^1.3.0",
+    "react-redux": "^8.0.5",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "swiper": "^9.1.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap",
+    "sass": "gulp watch",
+    "GlobalWatch": "gulp GlobalWatch"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "react-snap": "^1.23.0",
+    "sass": "^1.59.3"
+  }
+}
